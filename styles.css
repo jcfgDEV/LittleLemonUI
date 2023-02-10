@@ -1,0 +1,136 @@
+/*CSS Import*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*FIN*/
+
+.Logo{
+    width: 200px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FooterLogo{
+    width: 94px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 20px;
+    background-color: darkgreen;
+    padding: 12px;
+    border-radius: 120px;
+    
+}
+
+nav li:hover{
+    color: coral;
+}
+
+nav li{
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+    color: white;
+    text-shadow: #000 1px 2px 3px;
+}
+
+section {
+    display: flex;
+    
+}
+
+
+article {
+    flex: 1;
+    
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+
+footer div{
+    justify-content: center;
+    display: flex;
+
+}
+
+div{
+    flex: 1;
+}
+
+.ArticleLogo{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+
+.AR{
+    position: relative;
+    margin: 20px;
+
+}
+
+.ARD{
+    position: absolute;
+    color: white;
+    margin: 12px;
+}
+
+.ARD{
+    text-shadow: #000 1px 2px 2px;
+    font-family:'Roboto', sans-serif;
+    font-size: 19px;
+}
+
+.Menu{
+    width: 260px;
+    height: 200px;
+}
+
+.ARC{
+    margin: 20px;
+    background-color: steelblue;
+}
+
+.ARC article{
+    margin: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.ARC article > h2{
+    color: white;
+    text-shadow: #000 1px 2px 2px;
+    
+}
+
+.ARC article > p{
+    font-weight: bolder;
+    font-size: 14px;
+}
